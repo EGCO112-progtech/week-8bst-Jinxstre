@@ -114,7 +114,7 @@ void printtree( TreeNodePtr treePtr,int space)
    if ( treePtr != NULL ) {
    
    printtree(treePtr->rightPtr,space+3);
-   for(int i=1;i<space;++i)
+   for(i=0;i<space;i++)
    {
       printf(" ");
    }
